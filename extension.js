@@ -1,6 +1,6 @@
 (function () {
     //Link location of your fork so you don't have to modify so many things.
-    var fork = "Yemasthui";
+    var fork = "spacesven";
 		
     //Define our function responsible for extending the bot.
     function extend() {
@@ -63,7 +63,7 @@
         cmdDeletion: true,
         chatLink: "https://rawgit.com/spacesven/basicBot/master/lang/en.json",
         maximumAfk: 120,
-        afkRemoval: true,
+        afkRemoval: false,
         maximumDc: 60,
         bouncerPlus: true,
         blacklistEnabled: true,
